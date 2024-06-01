@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website by Purna Shah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a id="lilink" target="_blank" href="https://www.linkedin.com/in/purnashah/"
+      >LinkedIn Profile</a
+    >
+    <a id="resumelink" target="_blank" href="purnashah_resume.pdf">Résumé</a>
+    <main id="main">
+      <section class="box" id="namebox">
+        <div id="name">Purna Shah</div>
+        <div id="descriptor">Portfolio Website</div>
+      </section>
+      <section class="box hidden" id="textbox1">
+        <h3>About me</h3>
+        Accomplished Data Engineer with proven record of writing scalable
+        pipelines, managing production-level infrastructure, and developing
+        data-intensive applications to drive efficiency and revenue.<br /><br />Skilled
+        across variety of technical areas, including Python, Airflow, SQL, data
+        warehousing (e.g. Snowflake/Redshift), NoSQL, AWS, Docker, and dbt. My
+        résumé and LinkedIn profile are linked at the top of the page.
+      </section>
+      <section class="box hidden" id="textbox2">
+        <h3>About this website</h3>
+        This is a CSS/HTML/JS frontend being served from a Docker container
+        running Nginx. I designed the UI with custom CSS and implemented scroll
+        animations, a border animation, and responsive design. The container is
+        deployed to AWS Elastic Beanstalk using a Github Actions CI/CD pipeline.
+        Github repo available here.
+      </section>
+    </main>
+    <div id="wavecontainer">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </div>
+  </body>
+</html>
