@@ -46,9 +46,9 @@ html {
 }
 
 .hidden {
-  padding-top: 150px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #descriptor {
@@ -136,7 +136,7 @@ a:hover {
 
 @media (min-width: 900px) {
   .hidden {
-    padding: 200px;
+    padding: 250px;
   }
 }
 
